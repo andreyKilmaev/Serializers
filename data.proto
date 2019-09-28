@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package Serialize;
+
+message Data {
+ string str = 1;
+ uint32 i = 2;
+}
