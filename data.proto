@@ -2,7 +2,13 @@ syntax = "proto3";
 
 package Serialize;
 
+message Map {
+	string s = 1;
+	repeated int32 i = 2;
+}
+
 message Data {
- string str = 1;
- uint32 i = 2;
+	string str = 1;
+	float f = 2;
+	repeated Map mp = 3;
 }
