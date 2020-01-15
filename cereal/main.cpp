@@ -46,6 +46,8 @@ int main()
   myStuff.fillData();
 
   output( cereal::make_nvp("best data ever", myStuff) );
+  
+  return 0;
 }
 
 

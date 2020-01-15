@@ -33,13 +33,6 @@ int main() {
 		}
 		v++;
 	}
-//  Почему вывод не 1 и 2??????????????
-//	int *i = new int(0);
-//	*i++;
-//	cout << *i << endl;
-//	*i++;
-//	cout << *i << endl;
-//	delete i;
 
 	ofstream out("data.bin", std::ios_base::binary); // Создаём и открываем на запись файл data.bin
 	if (d.SerializePartialToOstream(&out)) { // Если сериализация в файл удалась, то
